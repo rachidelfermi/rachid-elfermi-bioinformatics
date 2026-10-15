@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rachidelfermi.github.io/rachid-elfermi-bioinformatics/sitemap.xml

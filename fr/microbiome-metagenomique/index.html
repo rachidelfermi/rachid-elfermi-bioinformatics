@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="fr" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light dark"><meta name="theme-color" content="#f7f8f3">
+<!-- SEO:START -->
+<title>Microbiome et métagénomique shotgun | Rachid Elfermi</title>
+<meta name="description" content="Analyse du microbiome et métagénomique shotgun : qualité des données, profils taxonomiques et fonctionnels, génomique environnementale et collaboration.">
+<meta name="author" content="Rachid Elfermi">
+<link rel="canonical" href="https://rachidelfermi.github.io/rachid-elfermi-bioinformatics/fr/microbiome-metagenomique/">
+<link rel="alternate" hreflang="en" href="https://rachidelfermi.github.io/rachid-elfermi-bioinformatics/microbiome-metagenomics/">
+<link rel="alternate" hreflang="fr" href="https://rachidelfermi.github.io/rachid-elfermi-bioinformatics/fr/microbiome-metagenomique/">
+<link rel="alternate" hreflang="x-default" href="https://rachidelfermi.github.io/rachid-elfermi-bioinformatics/microbiome-metagenomics/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Microbiome et métagénomique shotgun | Rachid Elfermi">
+<meta property="og:description" content="Analyse du microbiome et métagénomique shotgun : qualité des données, profils taxonomiques et fonctionnels, génomique environnementale et collaboration.">
+<meta property="og:url" content="https://rachidelfermi.github.io/rachid-elfermi-bioinformatics/fr/microbiome-metagenomique/">
+<meta property="og:site_name" content="Rachid Elfermi">
+<meta property="og:locale" content="fr_MA">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:image" content="https://rachidelfermi.github.io/rachid-elfermi-bioinformatics/assets/images/rachid-elfermi-bioinformatics-social.png">
+<meta property="og:image:secure_url" content="https://rachidelfermi.github.io/rachid-elfermi-bioinformatics/assets/images/rachid-elfermi-bioinformatics-social.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Rachid Elfermi — Bioinformatics, human and environmental genomics">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Microbiome et métagénomique shotgun | Rachid Elfermi">
+<meta name="twitter:description" content="Analyse du microbiome et métagénomique shotgun : qualité des données, profils taxonomiques et fonctionnels, génomique environnementale et collaboration.">
+<meta name="twitter:image" content="https://rachidelfermi.github.io/rachid-elfermi-bioinformatics/assets/images/rachid-elfermi-bioinformatics-social.png">
+<meta name="twitter:image:alt" content="Rachid Elfermi — Bioinformatics, human and environmental genomics">
+<!-- SEO:END --><link rel="icon" href="../../assets/icons/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../../css/style.css">
+<script>
+// Reserve the enhanced header layout before first paint. If the external
+// script fails, restore the readable, script-free navigation on load.
+document.documentElement.classList.add("js-pending");
+window.addEventListener("load", () => {
+  document.documentElement.classList.remove("js-pending");
+}, { once: true });
+
+      try {
+        const savedTheme = localStorage.getItem("rachid-portfolio-theme");
+        if (savedTheme === "light" || savedTheme === "dark")
+          document.documentElement.dataset.theme = savedTheme;
+      } catch (_) {
+        /* The portfolio also works when browser storage is unavailable. */
+      }
+    </script><script src="../../js/main.js" defer></script><!-- STRUCTURED:START -->
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "name": "Rachid Elfermi",
+      "description": "Bioinformatics engineer at Hub de Médecine de Précision (HMP), within Hôpital Universitaire International Mohammed VI de Rabat and the Fondation Mohammed VI des Sciences et de la Santé (FM6SS) ecosystem, with approximately five years of environmental genomics and metagenomics research at UM6P.",
+      "jobTitle": "Bioinformatician",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Hub de Médecine de Précision (HMP)",
+        "alternateName": "HMP",
+        "description": "Specialized precision medicine unit within the Hôpital Universitaire International Mohammed VI de Rabat, part of the Fondation Mohammed VI des Sciences et de la Santé (FM6SS) ecosystem.",
+        "parentOrganization": {
+          "@type": "Hospital",
+          "name": "Hôpital Universitaire International Mohammed VI de Rabat",
+          "parentOrganization": {
+            "@type": "Organization",
+            "name": "Fondation Mohammed VI des Sciences et de la Santé (FM6SS)"
+          }
+        }
+      },
+      "email": "mailto:rachid.elfermi@gmail.com",
+      "sameAs": [
+        "https://www.linkedin.com/in/rachidelfermi/"
+      ],
+      "knowsAbout": [
+        "Human genomics",
+        "Whole-exome sequencing",
+        "Whole-genome sequencing",
+        "Environmental genomics",
+        "Metagenomics",
+        "Microbiome research",
+        "Computational biology",
+        "Python",
+        "R",
+        "Germline variant calling",
+        "Variant annotation and prioritization",
+        "Bioinformatics pipeline development"
+      ],
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Faculty of Sciences of Meknes"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Polydisciplinary Faculty of Ouarzazate"
+        }
+      ],
+      "@id": "https://rachidelfermi.github.io/rachid-elfermi-bioinformatics/#person",
+      "homeLocation": {
+        "@type": "Country",
+        "name": "Morocco"
+      },
+      "workLocation": {
+        "@type": "Place",
+        "name": "Rabat, Morocco"
+      },
+      "url": "https://rachidelfermi.github.io/rachid-elfermi-bioinformatics/"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://rachidelfermi.github.io/rachid-elfermi-bioinformatics/fr/microbiome-metagenomique/#page",
+      "name": "Microbiome et métagénomique shotgun | Rachid Elfermi",
+      "description": "Analyse du microbiome et métagénomique shotgun : qualité des données, profils taxonomiques et fonctionnels, génomique environnementale et collaboration.",
+      "inLanguage": "fr",
+      "isPartOf": {
+        "@id": "https://rachidelfermi.github.io/rachid-elfermi-bioinformatics/#website"
+      },
+      "author": {
+        "@id": "https://rachidelfermi.github.io/rachid-elfermi-bioinformatics/#person"
+      },
+      "about": [
+        "Microbiome analysis",
+        "Shotgun metagenomics",
+        "Environmental genomics"
+      ],
+      "url": "https://rachidelfermi.github.io/rachid-elfermi-bioinformatics/fr/microbiome-metagenomique/"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://rachidelfermi.github.io/rachid-elfermi-bioinformatics/fr/microbiome-metagenomique/#breadcrumbs",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://rachidelfermi.github.io/rachid-elfermi-bioinformatics/fr/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Microbiome et métagénomique shotgun | Rachid Elfermi",
+          "item": "https://rachidelfermi.github.io/rachid-elfermi-bioinformatics/fr/microbiome-metagenomique/"
+        }
+      ]
+    }
+  ]
+}</script>
+<!-- STRUCTURED:END --></head><body><a class="skip-link" href="#main-content">Aller au contenu</a><svg aria-hidden="true" class="icon-definitions" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<symbol id="i-arrow" viewbox="0 0 24 24">
+<path d="M5 12h14m-6-6 6 6-6 6"></path>
+</symbol>
+<symbol id="i-external" viewbox="0 0 24 24">
+<path d="M7 17 17 7M7 7h10v10"></path>
+</symbol>
+<symbol id="i-download" viewbox="0 0 24 24">
+<path d="M12 3v12m-4-4 4 4 4-4M4 16v4h16v-4"></path>
+</symbol>
+<symbol id="i-mail" viewbox="0 0 24 24">
+<rect height="14" rx="2" width="18" x="3" y="5"></rect>
+<path d="m3 6 9 7 9-7"></path>
+</symbol>
+<symbol id="i-linkedin" viewbox="0 0 24 24">
+<rect height="18" rx="3" width="18" x="3" y="3"></rect>
+<path d="M7 10v7m0-10v.1M11 17v-7m0 3a3 3 0 0 1 6 0v4"></path>
+</symbol>
+<symbol id="i-dna" viewbox="0 0 24 24">
+<path d="M6 2c0 8 12 12 12 20M18 2c0 8-12 12-12 20M7 5h10M10 9h4M10 15h4M7 19h10"></path>
+</symbol>
+<symbol id="i-leaf" viewbox="0 0 24 24">
+<path d="M20 3C8 2 2 8 5 15s15 5 15-12ZM4 21 16 8M9 16v-5m0 5h5"></path>
+</symbol>
+<symbol id="i-code" viewbox="0 0 24 24">
+<path d="m7 7-5 5 5 5m10-10 5 5-5 5M14 4l-4 16"></path>
+</symbol>
+<symbol id="i-sun" viewbox="0 0 24 24">
+<circle cx="12" cy="12" r="4"></circle>
+<path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"></path>
+</symbol>
+<symbol id="i-moon" viewbox="0 0 24 24">
+<path d="M20.7 13.2A9 9 0 0 1 10.8 3.3 9 9 0 1 0 20.7 13.2Z"></path>
+</symbol>
+<symbol id="i-copy" viewbox="0 0 24 24">
+<rect height="12" rx="2" width="12" x="8" y="8"></rect>
+<path d="M16 8V4H4v12h4"></path>
+</symbol>
+<symbol id="i-whatsapp" viewbox="0 0 24 24">
+<path d="M20.5 11.6a8.5 8.5 0 0 1-12.8 7.3L3 20l1.2-4.5a8.5 8.5 0 1 1 16.3-3.9Z"></path>
+<path d="m8 7 1.5-.2 1.1 2.5-.9 1.1c.7 1.5 1.7 2.4 3.2 3.1l1.1-1 2.5 1.2-.1 1.4c-.3 1.5-2.2 1.8-4.1.9-3.5-1.5-6.2-5-5.2-7.8.2-.6.5-1 1-1.2Z"></path>
+</symbol>
+</defs>
+</svg><header class="site-header"><div class="header-inner container">
+<a class="brand" href="../" aria-label="Rachid Elfermi, accueil"><span class="brand-mark">re<span>.</span></span><span class="brand-text">RACHID ELFERMI<small>INGÉNIEUR BIOINFORMATIQUE</small></span></a>
+<nav id="primary-navigation" class="primary-navigation" aria-label="Navigation principale"><a href="../">Accueil</a><a href="../cv/">CV</a><a href="../genomique-humaine/">Génomique humaine</a><a href="./" aria-current="page">Microbiome</a><a href="../#projects">Projets</a><a href="../#contact">Contact</a></nav>
+<div class="header-controls"><a class="language-switch" href="../../microbiome-metagenomics/" lang="en" hreflang="en" aria-label="Read this page in English">EN</a>
+<button id="theme-toggle" hidden class="icon-button" type="button" aria-label="Activer le thème sombre" aria-pressed="false"><svg class="icon theme-sun" aria-hidden="true"><use href="#i-sun"/></svg><svg class="icon theme-moon" aria-hidden="true"><use href="#i-moon"/></svg></button>
+<button id="menu-toggle" hidden class="menu-toggle icon-button" type="button" aria-label="Ouvrir la navigation" aria-controls="primary-navigation" aria-expanded="false"><span></span><span></span><span></span></button></div></div><div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div></header><main id="main-content"><section class="page-hero"><div class="container"><nav class="breadcrumbs" aria-label="Fil d’Ariane"><a href="../">Accueil</a><span aria-hidden="true">/</span><span>Microbiome</span></nav><p class="eyebrow">PERSPECTIVE SCIENTIFIQUE</p><h1>Analyse du microbiome et métagénomique shotgun</h1><p class="page-lead">Relier les communautés microbiennes aux questions de recherche en environnement et en santé.</p><p class="byline">Par <a href="../cv/">Rachid Elfermi</a> · Ingénieur bioinformatique · 12 octobre 2026</p><div class="scope-note"><h2>Mon expérience</h2><p>Environ cinq ans de recherche en génomique environnementale et métagénomique à l’Université Mohammed VI Polytechnique (UM6P) constituent un pilier de mon parcours. Mon activité actuelle au Hub de Médecine de Précision (HMP), au sein de l’Hôpital Universitaire International Mohammed VI de Rabat et de l’écosystème de la Fondation Mohammed VI des Sciences et de la Santé (FM6SS), comprend aussi la recherche sur le microbiome en santé.</p></div></div></section>
+<div class="container reading-layout"><aside class="page-toc" aria-label="Sur cette page"><a href="#design">Construire l’analyse autour de l’étude</a><a href="#workflow">Un cadre pratique pour l’analyse</a><a href="#context">Du contexte environnemental à la santé</a><a href="#evidence">Contributions scientifiques et bases computationnelles</a><a href="#handover">Préparer une collaboration reproductible</a></aside><div class="reading-content"><section class="article-section" id="design"><h2>Construire l’analyse autour de l’étude</h2><p>L’analyse du microbiome commence par la question scientifique et le plan d’échantillonnage. Les types d’échantillons, témoins, métadonnées et méthodes de séquençage déterminent les comparaisons possibles. Les communautés environnementales et associées à un hôte peuvent partager des méthodes de calcul tout en exigeant des interprétations biologiques différentes.</p><p>Les approches par marqueur, comme le profilage 16S rRNA, ciblent une région choisie. La métagénomique shotgun séquence l’ADN présent dans l’échantillon et permet d’explorer sa composition taxonomique et son potentiel fonctionnel. Elle se distingue du séquençage d’un génome humain, malgré l’emploi possible du sigle WGS dans les deux contextes. <a href="https://www.ebi.ac.uk/training/online/courses/metagenomics-bioinformatics/">EMBL-EBI — Metagenomics bioinformatics</a>.</p></section><section class="article-section" id="workflow"><h2>Un cadre pratique pour l’analyse</h2><ol class="workflow-list"><li><h3>Contrôle qualité et décontamination adaptée</h3><p>Les profils de qualité, adaptateurs et artéfacts doivent être examinés avant l’analyse. Le retrait des lectures de l’hôte est pertinent lorsque ce type d’ADN est présent et que l’étude le justifie. La référence et le nombre de lectures conservées à chaque étape doivent être documentés. <a href="https://www.ebi.ac.uk/training/materials/genome-resolved-metagenomics-bioinformatics-materials/quality-control/quality-control-lecture/">EMBL-EBI — Quality control and decontamination</a>.</p></li><li><h3>Profils taxonomiques et fonctionnels</h3><p>Le profil taxonomique décrit les organismes représentés ; le profil fonctionnel explore le potentiel en gènes ou voies biologiques soutenu par les données. Les résultats dépendent des bases de référence et de la méthode. Un potentiel fonctionnel inféré n’est pas une mesure directe d’activité. <a href="https://www.ebi.ac.uk/training/online/courses/metagenomics-bioinformatics/">EMBL-EBI — Metagenomics bioinformatics</a>.</p></li><li><h3>Assemblage et génomes microbiens</h3><p>L’assemblage regroupe les séquences concordantes en fragments plus longs, utiles pour l’annotation et les questions portant sur les génomes. Une analyse fondée sur les lectures et une analyse après assemblage répondent à des objectifs complémentaires ; l’assemblage n’est pas indispensable à chaque étude.</p></li><li><h3>Diversité et statistiques</h3><p>La diversité au sein d’un échantillon et les différences entre échantillons s’interprètent en tenant compte des témoins, des groupes et des facteurs de confusion. Les proportions issues du séquençage ne doivent pas être assimilées automatiquement à des nombres absolus de cellules. Le plan de comparaison est aussi important que la figure finale.</p></li></ol></section><section class="article-section" id="context"><h2>Du contexte environnemental à la santé</h2><p>En environnement, l’identité des plantes, l’habitat et les conditions de prélèvement peuvent structurer l’interprétation. En santé, le contexte de l’hôte et le plan d’étude orientent la comparaison. Ces éléments doivent accompagner les résultats, au-delà d’une simple liste d’organismes.</p><p>Mon expérience comprend les workflows génomiques et métagénomiques, les profils taxonomiques, fonctionnels et écologiques, ainsi que la formation. Les méthodes générales présentées ci-dessus permettent de discuter du plan d’étude et des choix d’analyse ; les publications ci-dessous précisent mes contributions scientifiques.</p></section><section class="article-section" id="evidence"><h2>Contributions scientifiques et bases computationnelles</h2><p>Parmi mes contributions figurent une <a href="https://doi.org/10.1186/s12866-025-04463-w">étude des communautés bactériennes de quatre plantes du Sahara marocain</a> (logiciel), une <a href="https://doi.org/10.1007/s00572-024-01174-4">étude sur le pois chiche et les communautés fongiques</a> (méthodologie, curation et relecture) et une <a href="https://doi.org/10.3390/microorganisms13081884">étude du microbiome cervico-vaginal</a> (analyse formelle).</p><p>Un stage distinct à l’UM6P en 2020 portait sur la prédiction de gènes métagénomiques par détection d’ORF et réseaux CNN. Il précède mon poste de recherche d’environ cinq ans. Ces projets illustrent plusieurs aspects de la bioinformatique microbienne ; ils ne sont pas tous des études de séquençage shotgun.</p><p><a href="../cv/">Consulter mon parcours, mes outils et mes publications</a>. Le <a href="../genomique-humaine/">guide WES/WGS</a> présente le volet génomique humaine et variants germinaux.</p></section><section class="article-section" id="handover"><h2>Préparer une collaboration reproductible</h2><p>Pour un premier échange, les informations utiles sont l’objectif scientifique, les types d’échantillons, l’approche de séquençage, le plan général de l’étude et les comparaisons souhaitées. La restitution informatique doit documenter les entrées, les versions des workflows et bases, les décisions de qualité, les paramètres et les résultats interprétables, afin de faciliter la relecture et la réanalyse.</p></section></div></div><section id="contact" class="section contact-section section-anchor" aria-labelledby="contact-title"><div class="container contact-grid"><div><p class="eyebrow">COLLABORATION SCIENTIFIQUE</p><h2 id="contact-title">Une question de recherche à explorer ensemble ?</h2><p class="section-summary">Basé au Maroc, je souhaite échanger avec des équipes marocaines et internationales en génomique humaine, microbiome, métagénomique et biologie computationnelle. Présentez votre question, le type de données et les objectifs de la collaboration.</p><p class="section-footnote">Pour un premier échange, un résumé du projet suffit ; aucun fichier individuel de séquençage n’est nécessaire.</p></div><div class="contact-options"><a class="contact-option whatsapp-option" href="https://wa.me/212694231924?text=Hello%20Rachid%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20get%20in%20touch." target="_blank" rel="noopener noreferrer"><span>Échanger sur WhatsApp</span></a><a class="contact-option" href="mailto:rachid.elfermi@gmail.com"><span>rachid.elfermi@gmail.com</span></a><a class="contact-option" href="https://www.linkedin.com/in/rachidelfermi/" target="_blank" rel="noopener noreferrer"><span>Profil LinkedIn</span></a></div></div></section></main><footer class="site-footer"><div class="container page-footer"><a href="../">Rachid Elfermi</a><p>Bioinformatique · Maroc · Collaborations internationales</p><a href="../cv/">Parcours et CV</a><a href="../#contact">Contact</a></div></footer></body></html>
